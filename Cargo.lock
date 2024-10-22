@@ -902,9 +902,8 @@ dependencies = [
 
 [[package]]
 name = "jsonwebtoken"
-version = "9.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c7ea04a7c5c055c175f189b6dc6ba036fd62306b58c66c9f6389036c503a3f4"
+version = "9.3.0"
+source = "git+https://github.com/jsdt/jsonwebtoken.git?rev=7f0cef63c74f58dfa912e88da844932ba4c71562#7f0cef63c74f58dfa912e88da844932ba4c71562"
 dependencies = [
  "base64",
  "js-sys",
