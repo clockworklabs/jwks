@@ -14,7 +14,7 @@ keywords = ["jwt", "jsonwebtoken", "jwks"]
 
 [dependencies]
 base64 = "0.21.7"
-jsonwebtoken = "9.2.0"
+jsonwebtoken = { git = "https://github.com/jsdt/jsonwebtoken.git", rev = "77aba17ce4c6eae1280f527309db1a3ae0834376"}
 reqwest = { version = "0.11.23", features = ["json"] }
 serde = { version = "1.0.195", features = ["derive"] }
 thiserror = "1.0.56"
