@@ -14,7 +14,7 @@ keywords = ["jwt", "jsonwebtoken", "jwks"]
 
 [dependencies]
 base64 = "0.21.7"
-spacetimedb_jsonwebtoken = { version = "9.3.0" }
+spacetimedb-jsonwebtoken = { version = "9.3.0" }
 reqwest = { version = "0.11.23", features = ["json"] }
 serde = { version = "1.0.195", features = ["derive"] }
 thiserror = "1.0.56"
