@@ -3,7 +3,7 @@
 use std::collections::HashMap;
 
 use base64::{engine::general_purpose::URL_SAFE_NO_PAD, Engine};
-use jsonwebtoken::{
+use spacetimedb_jsonwebtoken::{
     jwk::{self},
     DecodingKey,
 };
@@ -163,7 +163,7 @@ pub enum JwkError {
     #[error("could not construct a decoding key for {key_id:?}: {error:?}")]
     DecodingError {
         key_id: String,
-        error: jsonwebtoken::errors::Error,
+        error: spacetimedb_jsonwebtoken::errors::Error,
     },
 
     /// The key does not specify an algorithm to use.
