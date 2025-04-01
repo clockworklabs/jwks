@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.4.0](https://github.com/chenhunghan/jwks/compare/v0.3.0...v0.4.0) (2025-02-27)
+
+
+### Features
+
+* bump base64 to 0.22.1 and jsonwebtoken to 9.3.1 ([#16](https://github.com/chenhunghan/jwks/issues/16)) ([4a491f8](https://github.com/chenhunghan/jwks/commit/4a491f8a3f5407c72a0153e9330e38cf9c229c77))
+
+## [0.3.0](https://github.com/chenhunghan/jwks/compare/v0.2.0...v0.3.0) (2025-02-14)
+
+
+### Features
+
+* expose .alg parsed from key ([#13](https://github.com/chenhunghan/jwks/issues/13)) ([7bf41c8](https://github.com/chenhunghan/jwks/commit/7bf41c828793288152235ab9030a5d0cc3b9b2e1))
+
+## [0.2.0](https://github.com/chenhunghan/jwks/compare/v0.1.3...v0.2.0) (2025-01-05)
+
+
+### Features
+
+* bump reqwest to 0.12 ([2c31be0](https://github.com/chenhunghan/jwks/commit/2c31be008e8877ba8da9772d0b81061aff09b961))
+
 ## [0.1.3](https://github.com/chenhunghan/jwks/compare/v0.1.2...v0.1.3) (2024-02-12)
 
 
