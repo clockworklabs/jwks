@@ -1,6 +1,6 @@
 [package]
 name = "spacetimedb-jwks"
-version = "0.1.3"
+version = "0.4.0"
 edition = "2021"
 authors = ["Hung-Han Chen <chenhungh@gmail.com>"]
 description = "A library for retrieving and parsing JSON Web Key Sets (JWKS)"
@@ -15,7 +15,7 @@ keywords = ["jwt", "jsonwebtoken", "jwks"]
 [dependencies]
 base64 = "0.22.1"
 spacetimedb-jsonwebtoken = { version = "9.3.0" }
-reqwest = { version = "0.11.23", features = ["json"] }
+reqwest = { version = "0.12.12", features = ["json"], default-features = false }
 serde = { version = "1.0.195", features = ["derive"] }
 thiserror = "1.0.56"
 tokio = { version = "1.35.1", features = ["full"] }
